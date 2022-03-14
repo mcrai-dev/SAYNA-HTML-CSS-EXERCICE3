@@ -1,37 +1,205 @@
-        nav {
-            color: white;
-            background-color: #D35649;
-            display: list-item;
-            /* height: 50px; */
-            font-size: larger;
-        }
-        
-        .head-right {
-            /* float: left; */
-            /* padding-right: 2%; */
-            height: 50px;
-            width: 100%;
-            /* overflow: auto; */
-        }
-        
-        .head-right a {
-            /* display: inline; */
-            padding-right: 25px;
-            padding: 12px;
-            text-decoration: none;
-            font-size: 17px;
-            float: right;
-            color: white;
-        }
-        
-        .head-right a:hover {
-            background-color: #ff6b5b;
-        }
-        
-        .image-Header {
-            background-image: url(../../Assets/Images/group-1.jpg);
-            background-repeat: no-repeat;
-            background-position: center;
-            background-origin: content-box;
-            width: 100%;
-        }
+nav {
+    color: white;
+    background-color: #D35649;
+    display: list-item;
+    /* height: 50px; */
+    font-size: larger;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+    margin: 2%;
+}
+
+
+/* ------------ card Search-------------- */
+
+.card-search button {
+    background-color: #D35649;
+    border-color: #D35649;
+}
+
+
+/* ----------------end card search-------- */
+
+.head-right {
+    /* float: right; */
+    padding-right: 2%;
+    height: 50px;
+    width: 100%;
+    /* overflow: auto; */
+}
+
+.headers {
+    display: inline;
+}
+
+.head-right a {
+    /* display: inline; */
+    padding-right: 25px;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    float: right;
+    color: white;
+}
+
+.head-right a:hover {
+    background-color: #ff6b5b;
+}
+
+.image-Header {
+    background-image: url(../../Assets/Images/group-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: content-box;
+    width: 100%;
+}
+
+.logo-image {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+
+/* ---------------------------- */
+
+.works {
+    color: #D35649;
+    font-size: 18px;
+    text-align: center;
+    padding: 1%;
+}
+
+
+/* ---------------------------- */
+
+#locationImg {
+    border-radius: 25%;
+    padding: 1px;
+    border: 8px;
+}
+
+.button {
+    margin-left: 30%;
+}
+
+.button-2 {
+    margin-right: 30%;
+}
+
+.button li {
+    display: inline;
+    margin: 2%;
+}
+
+.button-2 li {
+    display: inline;
+    margin: 2%;
+}
+
+hr {
+    height: 1px;
+    background-color: white;
+    border: none;
+}
+
+
+/* ---------------------------------------- */
+
+.nearYou {
+    color: white;
+    background-color: #D35649;
+    padding: 2%;
+    padding-inline: 2%;
+}
+
+.nearYou button {
+    background-color: white;
+    color: #D35649;
+    border-color: #D35649;
+}
+
+.nearYou img {
+    border-radius: 100%;
+}
+
+.connectingYou {
+    background-color: #adadad;
+    padding: 2%;
+    padding-inline: 2%;
+}
+
+
+/* --------------------------------------- */
+
+.connectingYou {
+    color: white;
+}
+
+.connectingYou button {
+    background-color: white;
+    color: #adadad;
+    border-color: white;
+}
+
+.connectingYou img {
+    border-radius: 100%;
+}
+
+
+/* ---------------------------------------- */
+
+.spredingLove {
+    color: white;
+    /* background-color: #D35649; */
+    /* padding: 2%; */
+    /* padding-inline: 2%; */
+}
+
+.spredingLove img {
+    border-radius: 100%;
+}
+
+.spredingLove {
+    background-color: #509BD7;
+    padding: 2%;
+    padding-inline: 2%;
+}
+
+
+/* ---------------------------------------- */
+
+.contactEvent {
+    color: #D35649;
+}
+
+.learnMore a {
+    color: #D35649;
+}
+
+.foot {
+    margin-top: 10%;
+    color: white;
+    background-color: black;
+}
+
+.footerBottom {
+    background-color: #1F1F1F;
+    height: 5%;
+}
+
+.sendEmail input {
+    background-color: black;
+    border-radius: 5%;
+    height: 35px;
+}
+
+.sendEmail button {
+    background-color: #1F1F1F;
+    border-radius: 10%;
+}
